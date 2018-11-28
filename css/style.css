@@ -1,19 +1,51 @@
 html {
-    height: 100%;
-}
-
-body {
-    height: 100%;
+     background-color:black;
     
 }
-a {
-    text-decoration: none;
+
+.row{  
+    color: gold;
+    font-size:20px;
+    border-bottom: 2px; 
+}
+.logo{
+    width:40%;
+   
+}
+.mid{
+    
+    background-color:white;
+    color:black;
+    align-items:center;
+    font-size:50px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+  
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    
+    }
+.mid {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: gold;
+    
+    }
+
+.aboutme {
+    display: flex;
+    justify-content: center;
+   
 }
 
-.main {
-    height: 100%;
+.contact {
+    display: flex;
+    justify-content: space-around;
+    
 }
-.social-image{
-    width: 30px;
-    margin: 15px;
-}
+
